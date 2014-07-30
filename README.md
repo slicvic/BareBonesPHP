@@ -1,4 +1,4 @@
 Hi, I'm Candy!
 ========
 
-The Lean PHP MVC framework for small projects. Stay tuned for more!
+The lean PHP MVC framework for small projects. Stay tuned for more!
