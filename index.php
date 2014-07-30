@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-
 // Set the full path to the docroot
 define('DOCROOT', realpath(dirname(__FILE__)).'/');
 // The directory in which your application specific resources are located.
@@ -9,7 +7,7 @@ define('APPPATH', DOCROOT.'app/');
 // Enable the auto-loader.
 require_once(DOCROOT.'autoload.php');
 //spl_autoload_register(array('Loader', 'autoload'));
-//
+
 // Bootstrap the application
 require_once(APPPATH.'bootstrap.php');
 
