@@ -4,13 +4,18 @@ function __autoload($class)
 {
     $class = str_replace('_', '/', $class);
 
-    // Check in application folder
-    $path = APPPATH.'classes/'.$class.'.php';
+    $paths = array(
+    	APPPATH.'classes/'.$class.'.php',
+    	LIBPATH.$class.'.php'
+	);
 
-    if (file_exists($path) === FALSE)
-    {
-        throw new Candy_Exception('The requested '.$path.' could not be found', 500);
-    }
+	foreach($paths as $path)
+	{
+		if (file_exists($path)) {
+			require $path;
+			return TRUE;
+		}
+	}
 
-    require $path;
+    throw new Candy_Exception('The requested '.$path.' could not be found', 500);
 }

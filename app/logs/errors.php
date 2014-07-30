@@ -58,3 +58,11 @@
 [29-Jul-2014 21:10:52] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/framework/app/classes/DB.php could not be found
 [29-Jul-2014 21:11:30] 0 Candy_Exception: Database connection production not defined in configuration
 [29-Jul-2014 21:11:41] 0 Candy_Exception: Database connection production not defined in configuration
+[30-Jul-2014 12:09:28] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/Exception.php could not be found
+[30-Jul-2014 12:09:28] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/View.php could not be found
+[30-Jul-2014 12:11:03] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/Controller.php could not be found
+[30-Jul-2014 12:11:03] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/View.php could not be found
+[30-Jul-2014 12:11:14] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/Controller.php could not be found
+[30-Jul-2014 12:11:14] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/View.php could not be found
+[30-Jul-2014 12:12:36] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/Controller.php could not be found
+[30-Jul-2014 12:12:36] 500 Candy_Exception: The requested /Users/slicvic/Desktop/projects/htdocs/candyphp/lib/Candy/View.php could not be found

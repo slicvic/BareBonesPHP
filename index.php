@@ -3,6 +3,7 @@
 define('DOCROOT', realpath(dirname(__FILE__)).'/');
 // The directory in which your application specific resources are located.
 define('APPPATH', DOCROOT.'app/');
+define('LIBPATH', DOCROOT.'lib/');
 
 // Enable the auto-loader.
 require_once(DOCROOT.'autoload.php');
